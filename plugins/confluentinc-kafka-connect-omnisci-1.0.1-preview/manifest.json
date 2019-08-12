@@ -1,0 +1,28 @@
+{
+  "name" : "kafka-connect-omnisci",
+  "version" : "1.0.1-preview",
+  "title" : "Kafka Connect OmniSci Sink",
+  "description" : "A Kafka Connect plugin for OmniSci Sink Connector",
+  "owner" : {
+    "username" : "confluentinc",
+    "name" : "Confluent, Inc."
+  },
+  "support" : {
+    "summary" : "This connector is not currently supported and is\ninstead provided as a preview covered by the Confluent Software\nEvaluation License."
+  },
+  "tags" : [ "OmniSci Sink Connector" ],
+  "features" : {
+    "supported_encodings" : [ "any" ],
+    "single_message_transforms" : true,
+    "confluent_control_center_integration" : true,
+    "kafka_connect_api" : true
+  },
+  "documentation_url" : "https://docs.confluent.io/current/connect/kafka-connect-omnisci/",
+  "docker_image" : { },
+  "license" : [ {
+    "name" : "Confluent Software Evaluation License",
+    "url" : "https://www.confluent.io/software-evaluation-license"
+  } ],
+  "component_types" : [ "sink" ],
+  "release_date" : "2019-07-17"
+}
